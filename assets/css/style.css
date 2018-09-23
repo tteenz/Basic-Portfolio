@@ -45,9 +45,14 @@ a:hover {
     background-color: #cccccc;
 }
 
+#portfolio {
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+}
+
 h2 {
     color: #4aaaa5;
-    margin: 30px 25px;
+    margin: 30px 25px 15px 25px;
     padding-bottom: 25px;
     border-bottom: 3px solid #dddddd;
 }
@@ -80,7 +85,40 @@ h2 {
 
 img {
     float: left;
-    padding: 0px 20px 0px 25px;
+    padding: 25px;
+}
+
+.box1, .box2, .box3 {
+    width: 100%;
+    overflow: auto;
+    background: white;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bottom {
+    position: absolute;
+    top: 78%;
+    left: 175px;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    background-color: #4aaaa5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 300px;
+}
+
+.bottom1 {
+    position: absolute;
+    top: 78%;
+    left: 525px;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    background-color: #4aaaa5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 300px;
 }
 
 .clearfix {
@@ -92,7 +130,7 @@ p {
     line-height: 200%;
     padding-right: 25px;
     padding-left: 25px;
-    margin-top: -5px;
+    margin-top: 20px;
 }
 .footer {
     position: absolute;
