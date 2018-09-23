@@ -1,45 +1,53 @@
 <!DOCTYPE html>
-    <html lang="en-us">
-        <head>
-            <meta charset="UTF-8">
+<html lang="en-us">
 
-            <title>Tina Tran</title>
-            <link rel="stylesheet" href="assets/css/style.css">
+<head>
+    <meta charset="UTF-8">
 
-        </head>
+    <title>Tina Tran</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 
-    <body>
-            <div class="header">
-                    <a href="index.html" class="Name">Tina Tran</a>
-                    <div class="header-right">
-                        <a class="active" href="index.html">About</a>
-                        <a href="portfolio.html">Portfolio</a>
-                        <a href="contact.html">Contact</a>
-                    </div>
-                </div>
+</head>
 
-                <div class="container">
-                        <section id="main">
-                        
-                        <h2>Contact</h2>
-            
-                        <div class="clearfix">
-                        
-                        </section>
- 
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name">
+<body>
+    <div class="header">
+        <a href="index.html" class="Name">Tina Tran</a>
+        <div class="header-right">
+            <a class="active" href="index.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
 
-                    <label for="mail">Email:</label>
-                    <input type="text" id="mail" name="mail">
+    <div class="container">
+        <section id="main">
 
-                    <label for="message">Message:</label>
-                    <input type="text" id="message" name="message" height:200px;>
+            <h2>Contact</h2>
+
+            <div class="clearfix">
+
+        </section>
+
+        <form action="/action_page.php">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="example@gmail.com">
 
 
-                </div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="" style="height:200px"></textarea>
 
-            <div class="footer">Copyright@</div>
+            <button class="button">Submit</button>
 
-    </body>
-    </html>
+        </form>
+
+    </div>
+
+    <div class="footer">Copyright@
+    </div>
+
+</body>
+
+</html>
